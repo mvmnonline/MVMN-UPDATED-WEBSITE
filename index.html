@@ -103,8 +103,8 @@
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhshs7aiFTStV7saI4sVuNvWJe8gUk_pGpc8MhsxhlaMBwDDRTUoPe_BvZqtTtmU7n1VlebpLYhq7Xibzl-gdVniDk7AuktdD2Q7VebeAfhBSs6krjOYlCMkkY4LfONXaFwSXr85pXPTmaBl04Vf7fZa5pIwmrshj4TXuoeyUqlLujxo8Qt2VA5fXo6Yw/s224/61300.png" alt="MVM Logo" class="w-full h-full object-contain drop-shadow-md" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'40\' fill=\'%230d285c\'/><text x=\'50\' y=\'55\' font-family=\'Arial\' font-size=\'20\' fill=\'%23ffb800\' text-anchor=\'middle\'>MVM</text></svg>'">
                 </div>
                 <div>
-                    <h1 class="text-xl md:text-3xl font-extrabold text-brand-blue tracking-tight leading-tight">MAHARISHI VIDYA MANDIR</h1>
-                    <p class="text-xs md:text-sm font-semibold text-gray-600">Nalbari <span class="text-brand-gold">|</span> CBSE Curriculum</p>
+                    <h1 class="text-xl md:text-3xl font-extrabold text-brand-blue tracking-tight leading-tight">MAHARISHI VIDYA MANDIR NALBARI</h1>
+                    <p class="text-xs md:text-sm font-semibold text-gray-600">Nalbari, Assam <span class="text-brand-gold">|</span> CBSE Curriculum</p>
                 </div>
             </div>
 
@@ -144,13 +144,14 @@
             <i class="fa-solid fa-bell mr-2 animate-bounce"></i> UPDATES
         </div>
         <!-- Using a styled standard marquee for traditional school site feel -->
-        <marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="6" class="ml-32 font-medium text-sm md:text-base">
-            <span class="mx-4">🌟 Admissions Open for Session 2026-27! <a href="#admissions" class="underline text-brand-gold hover:text-white font-bold ml-1">Click here to apply online.</a></span>
-            <span class="mx-4">|</span>
+        <!-- You can adjust the marquee text color below by changing the #ffffff hex code in the style attribute -->
+        <marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="6" class="ml-32 font-medium text-sm md:text-base tracking-wide" style="color: #ffffff; text-shadow: 1px 1px 3px rgba(0,0,0,0.4);">
+            <span class="mx-4">🌟 Admissions Open for Session 2026-27! <a href="#admissions" class="underline hover:text-white font-extrabold ml-1" style="color: #ffff00; text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Click here to apply online.</a></span>
+            <span class="mx-4 opacity-75">|</span>
             <span class="mx-4">📅 Parent-Teacher Meeting scheduled for coming Saturday.</span>
-            <span class="mx-4">|</span>
+            <span class="mx-4 opacity-75">|</span>
             <span class="mx-4">🏆 Congratulations to our students for 100% CBSE Board Results!</span>
-             <span class="mx-4">|</span>
+             <span class="mx-4 opacity-75">|</span>
             <span class="mx-4">💻 Access student portals via the new eService section.</span>
         </marquee>
     </div>
@@ -245,7 +246,7 @@
     </section>
 
     <!-- Main Content Grid -->
-    <section class="container mx-auto px-4 py-16" id="about">
+    <section class="container mx-auto px-4 pt-16 pb-8" id="about">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
             
             <!-- About Section (Takes 2 columns) -->
@@ -324,6 +325,37 @@
                 </div>
             </div>
             
+        </div>
+    </section>
+
+    <!-- Principal's Desk Section -->
+    <section class="container mx-auto px-4 pb-16">
+        <div class="bg-white rounded-2xl shadow-xl p-8 md:p-10 border-t-4 border-brand-gold relative overflow-hidden">
+            <!-- Decorative Background Element -->
+            <div class="absolute top-0 left-0 w-32 h-32 bg-brand-blue opacity-5 rounded-br-full -z-10"></div>
+            
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                <!-- Principal Photo -->
+                <div class="w-48 h-48 md:w-56 md:h-56 flex-shrink-0 rounded-xl overflow-hidden border-4 border-brand-light shadow-md">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCx_3czHAksExganELwnWPA2o329Q3DHXIuEuzwTyoBhEKfGit26VEJTrJVNCLN65fSJrkO_qOLPqRIRc9WZ3QmrPLWU5jUmIUlweEK6fE-0LOpg5cvvlcS95cYPqtlI8gnwrrusc5eObocJJtDsytKyZCutrHERpC5GDKqnwp6QQItNOChkhvdCry_g/s533/130633.png" alt="Mr. Palash Gogoi - Principal" class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Principal Message -->
+                <div class="flex-1 text-center md:text-left">
+                    <h3 class="text-3xl font-bold text-brand-blue mb-1 flex items-center justify-center md:justify-start">
+                        <i class="fa-solid fa-user-tie mr-3 text-brand-gold"></i> Principal's Desk
+                    </h3>
+                    <h4 class="text-xl font-bold text-gray-800 mb-4 uppercase">Palash Gogoi</h4>
+                    
+                    <i class="fa-solid fa-quote-left text-3xl text-gray-200 float-left mr-4 mt-2 hidden md:block"></i>
+                    <p class="text-gray-600 leading-relaxed mb-4 text-lg">
+                        Welcome to Maharishi Vidya Mandir, Nalbari. It is my privilege to lead an institution dedicated to academic excellence and character building. We are committed to providing a nurturing environment where students can explore their full potential, rooted in traditional values and modern education practices through our comprehensive CBSE curriculum.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed text-lg">
+                        Our focus remains on the holistic development of every child, ensuring they grow into responsible, knowledgeable, and compassionate global citizens. I warmly invite you to join our vibrant school community.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -499,7 +531,7 @@
             <!-- Copyright -->
             <div class="border-t border-white/10 pt-8 text-center text-sm flex flex-col md:flex-row justify-between items-center">
                 <p>&copy; <span id="current-year"></span> Maharishi Vidya Mandir, Nalbari. All Rights Reserved.</p>
-                <p class="mt-2 md:mt-0 text-gray-500">CBSE Affiliated Institution</p>
+                <p class="mt-2 md:mt-0 text-gray-500">CBSE Curriculum</p>
             </div>
         </div>
     </footer>
